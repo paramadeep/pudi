@@ -8,7 +8,6 @@ function HttpRequestLogger() {
   {
     observe: function(subject, topic, data) 
     {
-      Components.utils.reportError(topic);
       if (topic == "http-on-modify-request") {
         var httpChannel = subject.QueryInterface(Ci.nsIHttpChannel);
         if(appWindow == null){
