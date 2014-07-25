@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.name = 'pudi'
-  s.version = '0.0.2'
-  s.date = '2014-07-23'
-  s.summary = "Assert browser requests"
-  s.description = "Assert browser requests"
+  s.version = '0.0.3'
+  s.date = '2014-07-25'
+  s.summary = "Get count of http request fired by a web app"
+  s.description = "Get count of http request fired by a web app"
   s.authors = ["deepak p"]
   s.files = Dir['README.md', 'lib/**/*']
   s.homepage =
-    'https://github.com/paramadeep/pudi.rb'
+    'https://github.com/paramadeep/pudi'
   s.license = 'MIT'
 
   s.add_runtime_dependency 'capybara', '>= 2.1.0'
