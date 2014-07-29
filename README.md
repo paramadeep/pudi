@@ -3,14 +3,14 @@
 Gives total number of https requests made at any given point. Ajax calls are also included.
 
 ## Example Applications
-- To assert if the page is not reloading, as paart of an action
+- To assert if a page/section is not reloading, as part of an action
 ```ruby
 beforeCount = getHttpRequestCount()
 #<do some operations here>
 afterCount = getHttpRequestCount()
 beforeCount.should eq afterCount
 ```
-- To assert if the page is reloading, as paart of an action
+- To assert if a page/section is reloading, as part of an action
 ```ruby
 beforeCount = getHttpRequestCount()
 #<do some operations here>
