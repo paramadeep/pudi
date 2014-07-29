@@ -1,5 +1,4 @@
 # Pudi
-====
 
 Gives total number of https requests made at any given point. Ajax calls are also included.
 
