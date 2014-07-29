@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'pudi'
-  s.version = '0.0.3'
-  s.date = '2014-07-25'
+  s.version = '0.0.4'
+  s.date = '2014-07-29'
   s.summary = "Get count of http request fired by a web app"
   s.description = "Get count of http request fired by a web app"
   s.authors = ["deepak p"]
